@@ -1,5 +1,5 @@
 # Padoka-Hill-Valley
-Projeto desenvolvido para o estudo da linguagem PHP, JavaScript e do sistema gerenciador de banco de dados MySQL.
+Projeto desenvolvido para o estudo da linguagem PHP e JavaScript, do sistema gerenciador de banco de dados MySQL e do sistema de organização de pastas MVC.
 
 Na linguagem PHP foi práticado a implementação da linguagem no modelo orientado a objeto com o uso de classes e objetos. Além disso foi desenvolvido a possibilidade de envio de imagens para o diretório do site e a inserção, alteração, leitura e remoção de dados do banco através da classe de conexão com o banco PDO.
 
