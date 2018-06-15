@@ -1,0 +1,269 @@
+/* CSS da página adm_promocoes.php do CMS */
+
+
+#main_content{
+    
+    width: 1200px;
+    height: 850px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fcfcc9;
+/*    background-color: darkblue;*/
+    
+    
+}
+
+#icon_back{
+    
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+/*    background-color: darkred;*/
+    float: left;
+    
+}
+
+#icon_back img{
+    
+    width: 60px;
+    height: 60px;
+    
+}
+
+#title{
+    
+    width: 950px;
+    height: 45px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial;
+    color: #E09900;
+/*    background-color: #000000;*/
+    float: left;
+    
+}
+
+#button_register{
+    
+    width: 150px;
+    height: 30px;
+    margin-left: 55px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: #e09900;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+#table_content{
+    
+    width: 1100px;
+    min-height: 600px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkblue;
+   background-color: #fcfcc9; 
+    
+}
+
+.columns_title{
+    
+    width: 200px;
+    height: 30px;
+    text-align: center;
+/*    background-color: #FFFFFF;*/
+    background-color: #444444;
+    font-family: Arial;
+    color: #E09900;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.columns{
+    
+    width: 200px;
+    height: 30px;
+    text-align: center;
+/*    background-color: #FFFFFF;*/
+    background-color: #f9e290;
+    font-family: Arial;
+    color: #444444;
+    font-size: 17px;
+    
+}
+
+.columns img{
+    
+    width: 30px;
+    height: 30px;
+    
+}
+
+.modal{
+    
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: none;
+    position: fixed;
+    z-index: 99;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    
+}
+
+.modal_content{
+    
+    width: 600px;
+    height: 550px;
+    background-color: #F5F5DC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    border: 1px solid #000000;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    position: relative;
+    
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+.close{
+    
+    width: auto;
+    height: auto;
+    margin-left: 550px;
+/*    background-color: darkblue;*/
+    font-family: Arial;
+    font-size: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color:#e09900;
+    
+}
+
+.close:focus{
+    
+    color: #000000;
+    
+}
+
+#title_register{
+    
+    width: 480px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial;
+    color: #E09900;
+/*    background-color: #444444;*/
+    
+}
+
+.input_content{
+    
+    width: 650px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 40px;
+/*    background-color: darkblue;*/
+    
+}
+
+.input_title{
+    
+    width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Arial;
+/*    background-color: darkred;*/
+/*    float: left;*/
+    
+}
+
+.input_register{
+    
+    width: 500px;
+    height: 40px;
+    margin-top: 3px;
+    padding-left: 5px;
+    font-size: 18px;
+    font-family: Arial;
+    border-radius: 10px;
+    border: 1px solid #E09900;
+/*    float: left;*/
+    
+}
+
+#button_save{
+    
+    width: 105px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 350px;
+    float: left;
+/*    background-color: black;*/
+    
+}
+
+#button_cancel{
+    
+    width: 105px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+/*    background-color: darkred;*/
+    
+}
+
+.button_commands{
+    
+    width: 100px;
+    height: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial;
+    cursor: pointer;
+    background-color: #e09900;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    
+}
+
+.button_commands:active{
+
+    background-color: #000000;
+    color: #e09900;
+    border: 1px solid #e09900;
+        
+}
+

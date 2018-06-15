@@ -1,0 +1,733 @@
+/* CSS da página "Produtos"*/
+
+@media screen and (min-width:1770px){
+    
+    #main_store{
+
+        width: 1300px;
+        min-height: 1380px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 70px;
+    /*    background-color: cadetblue;*/
+    /*    background-color: #F5F5DC;*/
+
+    }
+
+    .title{
+
+        width: 1300px;
+        height: 75px;
+        padding-top: 25px;
+/*        background-color: darkgreen;*/
+        background-color: #F5F5DC;
+        text-align: center;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #E09900;
+
+    }
+
+    .promotion_line{
+
+        width: 1300px;
+        min-height: 475px;
+        height: auto;
+        padding-top: 25px;
+    /*    background-color: #006699;*/
+/*        background-color: #F5F5DC;*/
+
+    }
+
+    .icon_promotion{
+
+        width: 300px;
+        height: 400px;
+        margin-left: 17px;
+    /*    background-color: #660000;*/
+        background-color: #E09900;
+        border: 2px solid #E09900;
+        float: left;
+        transition: 0.5s;
+
+    }
+
+    .img_promotion{
+
+        width: 300px;
+        height: 300px;
+    /*    background-color: chocolate;*/
+    /*    filter: brightness(100%);*/
+        opacity: 1;
+        transition: 1s;
+
+    }
+
+    .img_promotion img{
+
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .product_details{
+
+        width: 270px;
+        height: 200px;
+        margin-top: -300px;
+        padding-top: 50px;
+        padding-left: 20px;
+    /*    background-color: aqua;*/
+        color: #E09900;
+        font-family: Arial;
+        font-size: 18px;
+        opacity: 0;
+        z-index: 5;
+        position: absolute;
+
+    }
+
+    .button_details{
+
+        width: 80px;
+        height: 30px;
+        margin-top: 50px;
+        margin-left: 170px;
+        background-color: #e09900;
+        border: 1px solid #000000;
+        color: #000000;
+        font-family: Arial;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+
+    }
+
+    .button_details:active{
+
+        background-color: #000000;
+        color: #e09900;
+        border: 1px solid #e09900;
+
+    }
+
+    .icon_promotion:hover{
+
+        transition: 0.5s;
+        background-color: #000000;
+
+    }
+
+    .icon_promotion:hover > .product_details{
+
+        opacity: 1;
+
+    }
+
+    .icon_promotion:hover > .img_promotion{
+
+        transition: 1s;
+    /*    filter: brightness(20%);*/
+        opacity: 0.3;
+
+    }
+
+    .product_title{
+
+        width: 300px;
+        height: 70px;
+        padding-top: 30px;
+    /*    background-color: #000000;*/
+        color: #000000;
+        text-align: center;
+        font-family: Arial;
+        font-size: 25px;
+        transition: 0.5s;
+
+    }
+
+    .icon_promotion:hover > .product_title{
+
+        transition: 0.5s;
+        color: #E09900;
+
+    }
+
+    .promotion_title{
+
+        width: 300px;
+        height: 40px;
+        margin-left: -2px;
+        padding-top: 10px;
+        background-color: #F5F5DC;
+        text-align: center;
+        font-family: Arial;
+        font-size: 20px;
+        color: #FF0000;
+        border-top: 2px solid #e09900;
+
+    }
+
+    #highlight{
+
+        width: 1300px;
+        min-height: 600px;
+        height: auto;
+        margin-top: 80px;
+        padding-top: 10px;
+/*        background-color: darkslategray;*/
+    /*    background-color: #F5F5DC;*/
+
+    }
+
+    .highlight_description{
+
+        width: 1300px;
+        min-height: 500px;
+        height: auto;
+
+    }
+
+    .highlight_title{
+
+        width: 1300px;
+        height: 75px;
+        padding-top: 25px;
+    /*    background-color: darkgreen;*/
+        background-color: #ffbf00;
+        text-align: center;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #000000;
+
+    }
+
+    .highlight_extra{
+
+        width: 1260px;
+        min-height: 100px;
+        height: auto;
+        padding: 20px;
+        font-family: Arial;
+        font-size: 22px;
+        color: #000000;
+    /*    background-color: darkblue;*/
+        background-color: #E09900;
+
+    }
+
+    .highlight_details{
+
+        width: 1300px;
+        height: 100px;
+        margin-bottom: 30px;
+        padding-top: 60px;
+        font-family: Arial;
+        text-align: center;
+        font-size: 30px;
+        color: #000000;
+    /*    background-color: red;*/
+        background-color: #ffbf00;
+
+    }
+    
+}
+
+@media screen and (min-width:180px) and (max-width:1770px){
+ 
+    #promotion{
+        
+        width: 304px;
+        margin-left: auto;
+        margin-right: auto;
+/*        background-color: black;*/
+        
+    }
+    
+    #main_store{
+
+        width: 650px;
+        min-height: 1380px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 70px;
+/*        background-color: cadetblue;*/
+    /*    background-color: #F5F5DC;*/
+
+    }
+
+    .title{
+
+        width: 304px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 110px;
+/*        background-color: darkgreen;*/
+/*        background-color: #F5F5DC;*/
+        text-align: center;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #E09900;
+
+    }
+
+    .promotion_line{
+
+        width: 304px;
+        min-height: 475px;
+        height: auto;
+/*        background-color: #006699;*/
+/*        background-color: #F5F5DC;*/
+
+    }
+
+    .icon_promotion{
+
+        width: 300px;
+        height: 400px;
+        margin-top: 60px;
+    /*    background-color: #660000;*/
+        background-color: #E09900;
+        border: 2px solid #E09900;
+/*        float: left;*/
+        transition: 0.5s;
+
+    }
+
+    .img_promotion{
+
+        width: 300px;
+        height: 300px;
+    /*    background-color: chocolate;*/
+    /*    filter: brightness(100%);*/
+        opacity: 1;
+        transition: 1s;
+
+    }
+
+    .img_promotion img{
+
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .product_details{
+
+        width: 270px;
+        height: 200px;
+        margin-top: -300px;
+        padding-top: 50px;
+        padding-left: 20px;
+    /*    background-color: aqua;*/
+        color: #E09900;
+        font-family: Arial;
+        font-size: 18px;
+        opacity: 0;
+        z-index: 5;
+        position: absolute;
+
+    }
+
+    .button_details{
+
+        width: 80px;
+        height: 30px;
+        margin-top: 50px;
+        margin-left: 170px;
+        background-color: #e09900;
+        border: 1px solid #000000;
+        color: #000000;
+        font-family: Arial;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+
+    }
+
+    .button_details:active{
+
+        background-color: #000000;
+        color: #e09900;
+        border: 1px solid #e09900;
+
+    }
+
+    .icon_promotion:hover{
+
+        transition: 0.5s;
+        background-color: #000000;
+
+    }
+
+    .icon_promotion:hover > .product_details{
+
+        opacity: 1;
+
+    }
+
+    .icon_promotion:hover > .img_promotion{
+
+        transition: 1s;
+    /*    filter: brightness(20%);*/
+        opacity: 0.3;
+
+    }
+
+    .product_title{
+
+        width: 300px;
+        height: 70px;
+        padding-top: 30px;
+    /*    background-color: #000000;*/
+        color: #000000;
+        text-align: center;
+        font-family: Arial;
+        font-size: 25px;
+        transition: 0.5s;
+
+    }
+
+    .icon_promotion:hover > .product_title{
+
+        transition: 0.5s;
+        color: #E09900;
+
+    }
+
+    .promotion_title{
+
+        width: 300px;
+        height: 40px;
+        margin-left: -2px;
+        padding-top: 10px;
+        background-color: #F5F5DC;
+        text-align: center;
+        font-family: Arial;
+        font-size: 20px;
+        color: #FF0000;
+        border-top: 2px solid #e09900;
+
+    }
+
+    #highlight{
+
+        width: 650px;
+        min-height: 600px;
+        height: auto;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+/*        background-color: darkslategray;*/
+    /*    background-color: #F5F5DC;*/
+
+    }
+
+    .highlight_description{
+
+        width: 650px;
+        min-height: 500px;
+        height: auto;
+
+    }
+
+    .highlight_title{
+
+        width: 650px;
+        height: 75px;
+        padding-top: 25px;
+    /*    background-color: darkgreen;*/
+        background-color: #ffbf00;
+        text-align: center;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #000000;
+
+    }
+
+    .highlight_extra{
+
+        width: 610px;
+        min-height: 100px;
+        height: auto;
+        padding: 20px;
+        font-family: Arial;
+        font-size: 22px;
+        color: #000000;
+    /*    background-color: darkblue;*/
+        background-color: #E09900;
+
+    }
+
+    .highlight_details{
+
+        width: 650px;
+        height: 100px;
+        margin-bottom: 30px;
+        padding-top: 60px;
+        font-family: Arial;
+        text-align: center;
+        font-size: 30px;
+        color: #000000;
+    /*    background-color: red;*/
+        background-color: #ffbf00;
+
+    }
+    
+}
+
+@media screen and (min-device-width:180px) and (max-device-width:650px){
+ 
+    #promotion{
+        
+        width: 304px;
+        margin-left: auto;
+        margin-right: auto;
+/*        background-color: black;*/
+        
+    }
+    
+    #main_store{
+
+        width: 650px;
+        min-height: 1380px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 70px;
+/*        background-color: cadetblue;*/
+    /*    background-color: #F5F5DC;*/
+
+    }
+
+    .title{
+
+        width: 304px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 110px;
+/*        background-color: darkgreen;*/
+/*        background-color: #F5F5DC;*/
+        text-align: center;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #E09900;
+
+    }
+
+    .promotion_line{
+
+        width: 304px;
+        min-height: 475px;
+        height: auto;
+/*        background-color: #006699;*/
+/*        background-color: #F5F5DC;*/
+
+    }
+
+    .icon_promotion{
+
+        width: 300px;
+        height: 400px;
+        margin-top: 60px;
+    /*    background-color: #660000;*/
+        background-color: #E09900;
+        border: 2px solid #E09900;
+/*        float: left;*/
+        transition: 0.5s;
+
+    }
+
+    .img_promotion{
+
+        width: 300px;
+        height: 300px;
+    /*    background-color: chocolate;*/
+    /*    filter: brightness(100%);*/
+        opacity: 1;
+        transition: 1s;
+
+    }
+
+    .img_promotion img{
+
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .product_details{
+
+        width: 270px;
+        height: 200px;
+        margin-top: -300px;
+        padding-top: 50px;
+        padding-left: 20px;
+    /*    background-color: aqua;*/
+        color: #E09900;
+        font-family: Arial;
+        font-size: 18px;
+        opacity: 0;
+        z-index: 5;
+        position: absolute;
+
+    }
+
+    .button_details{
+
+        width: 80px;
+        height: 30px;
+        margin-top: 50px;
+        margin-left: 170px;
+        background-color: #e09900;
+        border: 1px solid #000000;
+        color: #000000;
+        font-family: Arial;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+
+    }
+
+    .button_details:active{
+
+        background-color: #000000;
+        color: #e09900;
+        border: 1px solid #e09900;
+
+    }
+
+    .icon_promotion:hover{
+
+        transition: 0.5s;
+        background-color: #000000;
+
+    }
+
+    .icon_promotion:hover > .product_details{
+
+        opacity: 1;
+
+    }
+
+    .icon_promotion:hover > .img_promotion{
+
+        transition: 1s;
+    /*    filter: brightness(20%);*/
+        opacity: 0.3;
+
+    }
+
+    .product_title{
+
+        width: 300px;
+        height: 70px;
+        padding-top: 30px;
+    /*    background-color: #000000;*/
+        color: #000000;
+        text-align: center;
+        font-family: Arial;
+        font-size: 25px;
+        transition: 0.5s;
+
+    }
+
+    .icon_promotion:hover > .product_title{
+
+        transition: 0.5s;
+        color: #E09900;
+
+    }
+
+    .promotion_title{
+
+        width: 300px;
+        height: 40px;
+        margin-left: -2px;
+        padding-top: 10px;
+        background-color: #F5F5DC;
+        text-align: center;
+        font-family: Arial;
+        font-size: 20px;
+        color: #FF0000;
+        border-top: 2px solid #e09900;
+
+    }
+
+    #highlight{
+
+        width: 650px;
+        min-height: 600px;
+        height: auto;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+/*        background-color: darkslategray;*/
+    /*    background-color: #F5F5DC;*/
+
+    }
+
+    .highlight_description{
+
+        width: 650px;
+        min-height: 500px;
+        height: auto;
+
+    }
+
+    .highlight_title{
+
+        width: 650px;
+        height: 75px;
+        padding-top: 25px;
+    /*    background-color: darkgreen;*/
+        background-color: #ffbf00;
+        text-align: center;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #000000;
+
+    }
+
+    .highlight_extra{
+
+        width: 610px;
+        min-height: 100px;
+        height: auto;
+        padding: 20px;
+        font-family: Arial;
+        font-size: 22px;
+        color: #000000;
+    /*    background-color: darkblue;*/
+        background-color: #E09900;
+
+    }
+
+    .highlight_details{
+
+        width: 650px;
+        height: 100px;
+        margin-bottom: 30px;
+        padding-top: 60px;
+        font-family: Arial;
+        text-align: center;
+        font-size: 30px;
+        color: #000000;
+    /*    background-color: red;*/
+        background-color: #ffbf00;
+
+    }
+    
+}

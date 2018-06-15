@@ -1,0 +1,94 @@
+/* CSS da Home*/
+
+#graphic_content{
+    
+    width: 1200px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#main{
+
+    width: 100%;
+    min-height: 1700px;
+    height: auto;
+/*    background-color: darkgreen;*/
+    background-color: #F5F5DC;
+
+}
+
+.title{
+
+    width: 1200px;
+    height: 60px;
+/*    background-color: darkblue;*/
+
+}
+
+#main_content{
+
+    width: 1200px;
+    height: 2300px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+/*    background-color: darkseagreen;*/
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    color: #E09900;
+    font-weight: bold;
+    background-color: #fcfcc9;
+
+}
+
+.content{
+
+    width: 700px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+/*    background-color: #f9e290;*/
+
+}
+
+
+.sub_menus{
+
+    width: 700px;
+    height: 200px;
+/*    background-color: darkred;*/
+    float: left;
+/*    opacity: 0;*/
+
+}
+
+.menu{
+
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    background-color: #E09900;
+    float: left;
+    transition:0.1s;
+
+}
+
+.menu:hover{
+
+    border-radius: 100px;
+    transition: 0.1s;
+
+}
+
+.menu img{
+
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+
+}
